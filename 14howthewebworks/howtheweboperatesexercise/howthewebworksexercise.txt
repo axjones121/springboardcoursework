@@ -1,0 +1,33 @@
+Part 1
+1.HTTP is an application-layer protocol transmitting hypermedia documents, such as HTMLAllCollection. It is used to communicate between web browsers and servers. 
+
+2. Url is the address of a webpage. Stands for Universal resource locator. 
+
+3. DNS is the Domain Name System. DNS purpose is to convert hostname into IP address.
+
+4. The query string recovers specific information from the database/website.
+
+5. The two HTTP request methods that we learned are the GET method and POST method. Get is a request without side-effects.
+Post is a request with side effects and will impact the server by adding some sort of information to it.
+
+6. An HTTP request is when a web browser(client) requests something from a particular server. 
+
+7. An HTTP response is made by a server to a client. 
+
+8. Headers provide additional information about the request or the response. Request headers are cookies and cache control. Response headers include content-type and last modified information.
+
+9. Your browser turns the website name into an IP address using DNS. The browser makes a request to the server. The server then sends back a response. If it is successful, the browser then makes a DOM from the HTML sent from the server.
+The browser also makes seperate HTTP requests for those resources such as images,CSS, Javascript, etc.
+
+
+Part 2
+
+1. https://icanhazdadjoke.com/search?term=pirates
+2. 172.67.211.64	
+3. Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+
+Part 3 
+
+No because the data was to the body and not the query string.
+
+
