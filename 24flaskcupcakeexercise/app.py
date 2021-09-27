@@ -1,4 +1,4 @@
-#code adapted by:
+# code adapted by:
 from flask import Flask, request, jsonify, render_template
 
 from models import db, connect_db, Cupcake
@@ -21,7 +21,6 @@ def root():
 
 @app.route("/api/cupcakes")
 def list_cupcakes():
- 
 
     cupcakes = [cupcake.to_dict() for cupcake in Cupcake.query.all()]
     return jsonify(cupcakes=cupcakes)
@@ -29,7 +28,6 @@ def list_cupcakes():
 
 @app.route("/api/cupcakes", methods=["POST"])
 def create_cupcake():
-  
 
     data = request.json
 
